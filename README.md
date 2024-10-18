@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <a href="https://github.com/TalMizrahii/OS-Automated-Grading-System"><img src="https://logodownload.org/wp-content/uploads/2022/05/linux-logo-1.png" alt="HTML" width="200"></a>
+  <a href="https://github.com/idoziv15/OS-Automated-Grading-System"><img src="https://logodownload.org/wp-content/uploads/2022/05/linux-logo-1.png" alt="HTML" width="200"></a>
   <br>
   Operating Systems - Multithreaded-News-System
   <br>
@@ -22,7 +22,7 @@ The system can be visualized as follows:
 
 Three Producers -> Dispatcher -> Three Co-Editors -> Screen Manager
 
- <img width="350" alt="2" src="https://github.com/TalMizrahii/Multithreaded-News-System/assets/103560553/8d67b13c-42d2-401a-b556-c9db0c08ad60">
+ ![image](https://github.com/user-attachments/assets/57005ea7-7b4a-4ede-b6eb-200a865e3583)
 
 
 The Producers communicate with the Dispatcher through their private queues. The Dispatcher scans the Producers' queues using a [round-robin](https://en.wikipedia.org/wiki/Round-robin_scheduling) algorithm and sorts the messages based on their type. The sorted messages are then inserted into the Dispatcher's queues. The Co-Editors receive the messages from the Dispatcher's queues, perform editing, and pass the edited messages to the Screen Manager through a shared queue. The Screen Manager displays the messages received from the Co-Editors on the screen.
